@@ -20,6 +20,7 @@ function App() {
     <Router>
       <ScrollToTop />
       <Header />
+    <Home/>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/contact" element={<Contact />} />
